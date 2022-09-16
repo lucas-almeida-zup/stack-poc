@@ -1,0 +1,23 @@
+name: task-poc-1
+description: Primeira task exemplo
+inputs:
+- label: Commit message
+  type: text
+  default: example
+  name: message
+  required: 'true'
+supported-os:
+- windows
+- linux
+- mac
+requirements-check:
+  dependency-example:
+    check-command: git --version
+    info: git is not installed
+  docker-example:
+    check-command: docker ps
+    info: docker is not installed or is not started
+  docker-example-2:
+    check-command: docker ps
+    info: docker is not installed or is not started (2)
+command: echo "Task executada com sucesso! {{inputs.message}}"

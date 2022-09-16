@@ -1,0 +1,13 @@
+name: template-poc-1
+description: Primeiro template POC
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+  - label: Teste
+    type: text
+    name: teste_input
+    default: Input Teste
