@@ -2,7 +2,7 @@ description: Stack POC para utilização de comandos STK
 name: stack-poc
 display-name: stack-poc
 picture: stack.png
-category: Backend; # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+category: Backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
   - java
   - spring
