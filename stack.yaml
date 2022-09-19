@@ -4,10 +4,10 @@ display-name: stack-poc
 picture: stack.png
 category: Backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - java
-  - spring
+  - Java
+  - Spring
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies
-  - docker
+  - Docker
 about: docs/about.md
 use-cases:
   - title: Use Case Title
